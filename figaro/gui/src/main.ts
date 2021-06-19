@@ -18,8 +18,11 @@ function createWindow (): void {
       nodeIntegration: true,
     },
     show: false,
+    frame: false,
+    resizable: true,
+    backgroundColor: '#0B3954',
   });
-  const figaro: ChildProcessWithoutNullStreams = spawn('python', [ path.resolve(__dirname, '..', '..', '..', 'figaro.py'), '-s', ]);
+  const figaro: ChildProcessWithoutNullStreams = spawn(process.platform === 'win32' ? 'python' : '/usr/bin/env python3', [ path.resolve(__dirname, '..', '..', '..', 'figaro.py'), '-s', ]);
   figaro.stdout.once('data', () => {
     console.log('Got data ... ');
 
