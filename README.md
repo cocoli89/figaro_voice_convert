@@ -45,10 +45,7 @@ Real-time open-source voice modification program & sound board. Can be useful fo
 
 If you're just looking to use *Figaro* and not work on it, then there's no reason to set up the development environment like described below, simply download the appropriate release for your platform from the [releases](https://github.com/MattMoony/figaro/releases) page and you're good to go!
 
-<div align="center">
-  <a href="https://github.com/MattMoony/figaro/releases/download/v0.3-alpha/Figaro.Setup.0.3.0-alpha.exe"><img src="media/download-windows.png" height="75px" /></a>
-  <a href="https://github.com/MattMoony/figaro/releases/download/v0.3-alpha/figaro-gui-0.3.0-alpha.tar.gz"><img src="media/download-linux.png" height="75px" /></a>
-</div>
+
 
 ### Development
 
